@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: "/",
-        destination: "/gen",
+        destination: "/gen?amount=16&length=20&upper=false&symbols=false&numbers=false",
         permanent: true,
       },
     ]
